@@ -1,11 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 35%;
-  padding: 10%;
+    margin: 0;
   background-color: #e1d8d8;
 }
 h1 {
   color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 canvas {
