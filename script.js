@@ -66,7 +66,7 @@ function launchConfetti() {
     cancelAnimationFrame(animationFrame);
     confettis = [];
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-  }, 6000);
+  }, 6190000);
 }
 
 // Lancer automatiquement à l’entrée du site
